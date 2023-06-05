@@ -1,0 +1,2 @@
+# ALX Python Programming Course
+Welcome to the ALX Python Programming Course! This course is designed to provide you with a comprehensive introduction to Python programming, covering both fundamental concepts and advanced topics. Through a series of projects, you will gain hands-on experience and develop practical skills in Python.
