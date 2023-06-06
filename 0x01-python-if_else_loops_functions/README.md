@@ -1,0 +1,2 @@
+# ALX Python Projects - If/Else, Loops, Functions
+Welcome to the ALX Python Projects repository! This repository contains a collection of projects focused on if/else statements, loops, and functions. These projects are designed to help you practice and improve your skills in Python programming.
