@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 def islower(c):
     asi = ord(c)
     if 97 <= asi <= 122:
