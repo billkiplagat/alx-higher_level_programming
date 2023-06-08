@@ -1,3 +1,3 @@
 #!/usr/bin/python3
-import pythoniscool
-
+import sys
+sys.stdout.write('#pythoniscool\n')
