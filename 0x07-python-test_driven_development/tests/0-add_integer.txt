@@ -13,16 +13,6 @@ Test with no arguments:
    >>> add_integer()
    Traceback (most recent call last):
    TypeError: add_integer() missing 1 required positional argument: 'a'
-Test combination of arguments with one being a float and the other being
-neither float nor integer:
-
-   >>> add_integer(4.6, "Not") #doctest: +ELLIPSIS
-   Traceback (most recent call last):
-   TypeError:...
-
-   >>> add_integer((1, 4), 5.3) #doctest: +ELLIPSIS
-   Traceback (most recent call last):
-   TypeError:...
 
 Test with only one argument:
 
@@ -82,10 +72,16 @@ neither float nor integer:
    Traceback (most recent call last):
    TypeError:...
 
-Test argument with both being zeroes:
+Test combination of arguments with one being a float and the other being
+neither float nor integer:
 
-   >>> add_integer(0, 0.0)
-   0
+   >>> add_integer(4.6, "Not") #doctest: +ELLIPSIS
+   Traceback (most recent call last):
+   TypeError:...
+
+   >>> add_integer((1, 4), 5.3) #doctest: +ELLIPSIS
+   Traceback (most recent call last):
+   TypeError:...
 
 Test both arguments as negative integers:
 
@@ -107,3 +103,7 @@ Test argument with one as positive and the other as negative:
    >>> add_integer(10, -5.2)
    5
 
+Test argument with both being zeroes:
+
+   >>> add_integer(0, 0.0)
+   0
