@@ -136,7 +136,8 @@ class Rectangle(Base):
         returns a string format of the rectangle
         """
         return "[{}] ({}) {}/{} - {}/{}".format(type(self).__name__, self.id,
-                                                self.x, self.y, self.__width, self.__height)
+                                                self.x, self.y, self.__width,
+                                                self.__height)
 
     def update(self, *args, **kwargs):
         """

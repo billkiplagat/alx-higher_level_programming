@@ -39,7 +39,8 @@ class Square(Rectangle):
         """
         returns a string format of the Square
         """
-        return "[{}] ({}) {}/{} - {}".format(type(self).__name__, self.id, self.x, self.y,
+        return "[{}] ({}) {}/{} - {}".format(type(self).__name__, self.id,
+                                             self.x, self.y,
                                              self.width)
 
     def update(self, *args, **kwargs):

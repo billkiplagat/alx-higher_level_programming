@@ -36,7 +36,8 @@ class Base:
         list_dictionaries (list): A list of dictionaries.
 
         static methods belongs to the class rather than the instance.
-        Static methods can be called on the class itself without the need for an instance of the class.
+        Static methods can be called on the class itself without
+        the need for an instance of the class.
         """
         if list_dictionaries is None or len(list_dictionaries) == 0:
             return "[]"
@@ -96,7 +97,5 @@ class Base:
             with open(filename, 'r') as file:
                 data = Base.from_json_string(file.read())
                 return [cls.create(**i) for i in data]
-
         except FileNotFoundError:
             return []
-
