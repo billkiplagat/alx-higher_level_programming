@@ -8,4 +8,4 @@ FROM tv_genres AS g
     ON t.id = s.show_id
     WHERE t.title = 'Dexter'
 
-ORDER BY name;
+ORDER BY g.name;
