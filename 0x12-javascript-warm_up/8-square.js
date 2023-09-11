@@ -1,5 +1,5 @@
 #!/usr/bin/node
-const arg1 = process.argv.slice(2);
+const arg1 = process.argv.slice(2)[0];
 const intVal = parseInt(arg1);
 if (!isNaN(intVal)) {
   for (let i = 0; i < intVal; i++) {
