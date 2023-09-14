@@ -99,4 +99,8 @@ Base = declarative_base()
 
 `session.close()`
 
+# What ORM means:
+
+ORM stands for Object-Relational Mapping. It's a programming technique that allows you to work with relational databases using object-oriented programming languages like Python. 
+It helps bridge the gap between the database and the application code by mapping database tables to Python classes and database rows to objects. This makes it easier to interact with databases in a more Pythonic way.
 
