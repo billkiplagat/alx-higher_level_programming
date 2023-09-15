@@ -1,4 +1,7 @@
 #!/usr/bin/python3
+"""
+Adds the State object “Louisiana” to the database
+"""
 import sys
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
@@ -20,7 +23,7 @@ if __name__ == "__main__":
     Session = sessionmaker(bind=engine)
     session = Session()
 
-    new_state = State(name='')
+    new_state = State(name='Louisiana')
     session.add(new_state)
     session.commit()
 
