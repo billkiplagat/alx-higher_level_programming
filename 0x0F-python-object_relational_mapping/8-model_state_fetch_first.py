@@ -24,5 +24,5 @@ if __name__ == "__main__":
         first = states[0]
         print("{}: {}".format(first.id, first.name))
     else:
-        print("No states found in the database.")
+        print("Nothing\n")
     session.close()
