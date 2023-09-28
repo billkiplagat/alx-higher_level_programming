@@ -5,7 +5,7 @@
 
 2. awk - is a text-processing tool that can process text or data line by line.
 
-# some common curl options:
+# Some common curl options:
 
 -X, --request <HTTP_METHOD>: Specifies the HTTP method for the request (e.g., GET, POST, PUT, DELETE).
 
